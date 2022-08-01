@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <title>Document</title>
+</head>
+<!--  -->
+
+
+<body>
+    <!-- CABEZERA -->
+    <div class="Cabeza_img">
+        <img src="img/LogoPrincipal.png" alt="Logo">
+    </div>
+
+    <div>
+
+        <nav class="Cabeza_Naevagdor">
+            <a href="index.html">
+                <li> Inicio</li>
+            </a>
+            <a href="armadoPC.html">
+                <li> Armado de tu Pc</li>
+            </a>
+        </nav>
+    </div>
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/BannerPclista.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/BannerPclista2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/BannerPclista3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/BannerPclista4.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!-- Main-cuerpo -->
+    <div class="contenedor">
+        <div class="Bloque_Grit">
+            <div class="caja1">
+                <img src="img/TarjetaGrafica1.png" alt=""><br>
+                <label for="TarjetaGrafica">MSI Geoforce RTX</label><br>
+                <input type="number" id="TarjetaGrafica1" name="" placeholder="Ingrese la cantidad" oninput="calcular()">
+                <p class="producto1 No_Margin">S/ 1757</p>
+
+            </div>
+            <div class="caja1">
+                <img src="img/TarjetaGrafica2.png" alt=""><br>
+                <label for="TarjetaGrafica">ASUS Dual</label><br>
+                <input type="number" id="TarjetaGrafica2" name="" placeholder="Ingrese la cantidad" oninput="calcular()">
+                <p class="producto2 No_Margin">S/ 457</p>
+
+            </div>
+            <div class="caja1">
+                <img src="img/TarjetaGrafica3.png" alt=""><br>
+                <label for="TarjetaGrafica">Tarjeta Grafica</label><br>
+                <input type="number" id="TarjetaGrafica3" name="" placeholder="Ingrese la cantidad" oninput="calcular()">
+                <p class="No_Margin">S/ 521</p>
+
+
+            </div>
+            <div class="caja1">
+                <img src="img/Monitor1.png" alt=""><br>
+                <label for="TarjetaGrafica">MSI Monito Dragon</label><br>
+                <input type="number" id="TarjetaGrafica4" name="" placeholder="Ingrese la cantidad" oninput="calcular()">
+                <p class="No_Margin">S/ 1200</p>
+
+
+            </div>
+            <div class="caja1">
+                <img src="img/Monitor2.png" alt=""><br>
+                <label for="TarjetaGrafica">Monito Dragon Pro</label><br>
+                <input type="number" id="TarjetaGrafica5" name="" placeholder="Ingrese la cantidad" oninput="calcular()">
+                <p class="No_Margin">S/ 700</p>
+
+
+            </div>
+            <div class="caja1">
+                <img src="img/Monitor3.png" alt=""><br>
+                <label for="TarjetaGrafica">Monitor ProHD</label><br>
+                <input type="number" id="TarjetaGrafica6" name="" placeholder="Ingrese la cantidad" oninput="calcular()">
+                <p class="No_Margin">S/ 350</p>
+
+
+            </div>
+            <div class="caja1">
+                <img src="img/Teclado1.png" alt=""><br>
+                <label for="TarjetaGrafica">Redragon Pro Blanco</label><br>
+                <input type="number" id="TarjetaGrafica7" name="" placeholder="Ingrese la cantidad" oninput="calcular()">
+                <p class="No_Margin">S/ 150</p>
+
+
+            </div>
+            <div class="caja1">
+                <img src="img/Teclado2.png" alt=""><br>
+                <label for="TarjetaGrafica">Redragon Zusara Pro5D</label><br>
+                <input type="number" id="TarjetaGrafica8" name="" placeholder="Ingrese la cantidad" oninput="calcular()">
+                <p class="No_Margin">S/ 600</p>
+
+
+            </div>
+            <div class="caja1">
+                <img src="img/Teclado3.png" alt=""><br>
+                <label for="TarjetaGrafica">Redragon BACK</label><br>
+                <input type="number" id="TarjetaGrafica9" name="" placeholder="Ingrese la cantidad" oninput="calcular()">
+                <p class="No_Margin">S/ 845</p>
+
+
+            </div>
+
+
+        </div>
+        <div class="container text-center">
+            <div class="row justify-content-evenly">
+                <div class="col-4">
+                    <div class="input-group mb-3 m-3">
+                        <span class="input-group-text" id="inputGroup-sizing-default">TOTAL</span>
+                        <input id="total" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                      </div>
+                </div>
+                <div class="col-4">
+                    <div class="d-grid gap-2 col-6 mx-auto m-3 ">
+                        <button id="boton_comprar" class="btn btn-primary fs-5 fw-bold " type="button">COMPRAR</button>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!-- FOOTER -->
+
+
+
+    <!-- Script  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+    <script src="/js/scripts.js"> </script>
+
+</body>
+
+</html>
